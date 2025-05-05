@@ -59,7 +59,7 @@ def format_output(query_times, total_time_ms):
     return output.getvalue()
 
 # Streamlit App UI
-st.title("SQLPlan Execution Time Extractor")
+st.title("ABINAYA")
 uploaded_file = st.file_uploader("Upload your .sqlplan file", type=['sqlplan', 'xml'])
 
 if uploaded_file is not None:
